@@ -1,0 +1,29 @@
+@import './styles/font.css';
+
+:root {
+  --main-bg-color: #0F1014;
+  --secondary-bg-color: #15171C;
+  --text-color: #F9F9F9;
+  --font-family: 'Gotham', sans-serif;
+  --btn-bg-color: #26272F;
+  --btn-text-color: #CFD1E2;
+  --btn-hover-bg-color: #393941;
+  --border-color: #363843;
+  --app-green: #BBF247;
+  --modal-close-btn-bg-color: #1B1C22;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+/* Desktop styles */
+@media (min-width: 1440px) {
+  body {
+    height: 1183px;
+  }
+}

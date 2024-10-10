@@ -1,0 +1,54 @@
+.voucher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: var(--secondary-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.voucher-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.voucher-percentage {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+
+.voucher-expiry {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--btn-text-color);
+}
+
+.voucher-details-bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voucher-button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    background-color: var(--secondary-bg-color);
+    color: var(--app-green);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    height: 34px;
+}
+
+.voucher-button:hover {
+    background-color: var(--btn-hover-bg-color);
+}

@@ -1,0 +1,139 @@
+.vouchers-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.voucher-container {
+    background-color: var(--secondary-bg-color);
+    border-radius: 12px;
+    box-shadow: 0px 3px 4px 0px #0000000D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    width: 287px;
+    height: 184px;
+    left: calc(50% - 287px/2);
+    top: calc(50% - 184px/2 - 0.5px);
+}
+
+.voucher-header {
+    padding: 12px 24px;
+    min-height: 70px;
+    gap: 12px;
+    border: none;
+    /* opacity: 0; */
+    border-bottom: 1px solid var(--btn-bg-color);
+    box-sizing: border-box;
+    width: 287px;
+    height: 70px;
+    text-align: center;
+}
+
+.voucher-header p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.voucher-content {
+    text-align: center;
+}
+
+.voucher-content P {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9CAE;
+}
+
+.primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+    width: 120px;
+    min-width: 120px;
+    height: 44px;
+    background: var(--app-green);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    width: 130px;
+    height: 34px;
+    background: var(--btn-bg-color);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: none;
+    color: var(--btn-text-color);
+}
+
+.secondary-btn.custom-btn {
+    font-family: var(--font-family);
+    height: 44px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+button.secondary-btn:hover {
+    background-color: var(--btn-hover-bg-color);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #636664;
+}
+
+.divider-text {
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #636674;
+}
+
+.confirm-modal-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+}
+
+.confirm-modal-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.confirm-modal-footer {
+    display: flex;
+    justify-content: center;
+}

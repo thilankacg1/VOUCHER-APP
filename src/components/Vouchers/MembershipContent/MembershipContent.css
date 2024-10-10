@@ -1,0 +1,186 @@
+.membership-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.membership-container h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+
+.member-address-details {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+    gap: 6px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: var(--btn-bg-color);
+
+}
+
+.member-address-details .state {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--btn-text-color);
+}
+
+.member-address-details .home-address {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9A9CAE;
+}
+
+.member-plan-details {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0px;
+    gap: 6px;
+    border-bottom: 1px solid var(--btn-bg-color);
+}
+
+.member-plan,
+.member-amount {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--btn-text-color);
+}
+
+.promocode-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--btn-bg-color);
+}
+
+.promocode-section label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--btn-text-color);
+    align-content: center;
+}
+
+.promocode-section .voucher-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    gap: 8px;
+    border: 1px solid #309C61;
+    border-radius: 8px;
+    width: 202px;
+}
+
+.promocode-section .voucher-card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #50CD89;
+    margin: 0;
+}
+
+.promocode-section .voucher-card span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--btn-text-color);
+}
+
+.remove-voucher {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background: transparent;
+    color: #9A9CAE;
+    position: absolute;
+    right: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.direct-debit-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--btn-text-color);
+    border-bottom: 1px solid var(--btn-bg-color);
+}
+
+.voucher-cal-section {
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--btn-text-color);
+    border-bottom: 1px solid var(--btn-bg-color);
+}
+
+.voucher-cal-section .title {
+    padding: 0 0 12px 0;
+}
+
+.voucher-cal-section .fee-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 12px 0;
+}
+
+.total-cost-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.total-cost-section label {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.total-cost-section span {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--app-green);
+}
+
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.button-section .secondary-btn {
+    height: 44px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.button-section .primary-btn {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-section {
+        display: flex;
+        justify-content: center;
+    }
+}
